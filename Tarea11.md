@@ -1,9 +1,9 @@
 # Práctica: Desglose de Billetes en Java
 
-## Breve Introducción
+## Introducción
 En esta práctica exploraremos el uso de estructuras de control, específicamente ciclos y condicionales en Java, para resolver un problema cotidiano de lógica matemática: calcular el desglose de una cantidad de dinero en billetes de diferentes denominaciones.
 
-## Resumen de qué se va a lograr con esta práctica
+## Resumen de la práctica
 El objetivo principal de este ejercicio es desarrollar un algoritmo que determine la menor cantidad de billetes necesarios para cubrir un monto específico (en este caso, $385). Para lograrlo, recorreremos un arreglo que contiene las denominaciones disponibles, aplicando la división entera para contar cuántos billetes entregar y la operación módulo (residuo) para actualizar la cantidad sobrante de forma iterativa.
 
 ## Código Fuente

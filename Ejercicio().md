@@ -1,12 +1,12 @@
 # Práctica: Validación de Paréntesis con Pilas en Python
 
-**Breve Introducción**
+## Introducción
 En esta práctica implementaremos una estructura de datos fundamental: la Pila (Stack). Esta estructura opera bajo el principio LIFO (Last In, First Out), un concepto que utilizan los compiladores de código para analizar la sintaxis de los programas y asegurar que no falte cerrar ningún bloque o ecuación[cite: 1].
 
-**Resumen de qué se va a lograr con esta práctica**
+## Resumen de la práctica
 El objetivo es desarrollar un algoritmo que valide si una secuencia de paréntesis (como las resultantes de recorrer un árbol binario en preorden) está estructurada de forma correcta[cite: 1]. Para lograrlo, el ciclo recorrerá la cadena de texto guardando ("apilando") cada paréntesis de apertura y sacándolo ("desapilando") al encontrar uno de cierre[cite: 1]. Si la pila intenta sacar un elemento cuando está vacía, o si al final del proceso quedan elementos dentro, la sintaxis será declarada como incorrecta[cite: 1].
 
-**Código Fuente**
+## Código Fuente
 A continuación se presenta el algoritmo en Python, estructurado y comentado:
 
 ```python

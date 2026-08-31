@@ -1,12 +1,12 @@
 # Práctica: Desglose de Billetes con Recursividad en Java
 
-**Breve Introducción**
+## Introducción
 En esta práctica exploraremos el paradigma de la programación recursiva en Java, una técnica fundamental donde un método se invoca a sí mismo para resolver un problema dividiéndolo en subproblemas más pequeños y manejables, sirviendo como alternativa a las estructuras de control iterativas (ciclos).
 
-**Resumen de la Práctica**
+## Resumen de la Práctica
 El objetivo es desarrollar un algoritmo recursivo que determine el desglose óptimo de un monto específico ($385) utilizando distintas denominaciones de billetes. La función evaluará un billete a la vez; si es viable, calculará la cantidad a entregar y se invocará a sí misma con el monto sobrante y el índice de la siguiente denominación. El proceso se detendrá al alcanzar el "caso base", es decir, cuando el monto sea cero o se agoten las denominaciones.
 
-**Código Fuente**
+## Código Fuente
 A continuación se presenta el código en Java, estructurado y documentado con especial énfasis en la separación lógica entre el caso base y el caso recursivo:
 
 ```java

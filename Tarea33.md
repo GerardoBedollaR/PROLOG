@@ -4,7 +4,7 @@
 En esta práctica continuaremos explorando el paradigma de la programación recursiva en Java para realizar operaciones aritméticas. La recursividad es una técnica donde un método se llama a sí mismo, dividiendo el problema en subproblemas más pequeños, y siempre requiere de un "caso base" para detener la ejecución y un "caso recursivo" para continuar el ciclo.
 
 ## Resumen de la práctica
-El objetivo de este programa es implementar un algoritmo matemático que resuelva una división entera utilizando únicamente restas sucesivas[cite: 1]. El método contará recursivamente cuántas veces se puede restar el divisor del dividendo de manera reiterada[cite: 1]. Cuando el dividendo se vuelva menor que el divisor, el algoritmo se detendrá, habiendo calculado el cociente exacto[cite: 1].
+El objetivo de este programa es implementar un algoritmo matemático que resuelva una división entera utilizando únicamente restas sucesivas[cite: 1]. El método contará recursivamente cuántas veces se puede restar el divisor del dividendo de manera reiterada[cite: 1]. Cuando el dividendo se vuelva menor que el divisor, el algoritmo se detendrá, habiendo calculado el cociente exacto.
 
 ## Código Fuente
 A continuación se presenta el código en Java, estructurado y comentado para explicar su funcionamiento lógico:

@@ -1,10 +1,10 @@
 # Práctica: Número de Fibonachi
 
 ## Introducción
-La recursividad es un paradigma de programación donde un método se llama a sí mismo para resolver un problema, dividiéndolo en subproblemas más pequeños del mismo tipo. Todo método recursivo requiere de un "caso base" para detener la ejecución y de un "caso recursivo" para continuar el ciclo[cite: 1].
+La recursividad es un paradigma de programación donde un método se llama a sí mismo para resolver un problema, dividiéndolo en subproblemas más pequeños del mismo tipo. Todo método recursivo requiere de un "caso base" para detener la ejecución y de un "caso recursivo" para continuar el ciclo.
 
 ## Resumen de la práctica
-El objetivo de este programa es calcular la sucesión de Fibonacci en una posición específica (en este caso, la posición 10). Se implementará un algoritmo recursivo que, mediante un caso base para los valores 0 y 1, y un caso recursivo que suma las dos posiciones anteriores, determinará el número correspondiente en la serie matemática[cite: 1].
+El objetivo de este programa es calcular la sucesión de Fibonacci en una posición específica (en este caso, la posición 10). Se implementará un algoritmo recursivo que, mediante un caso base para los valores 0 y 1, y un caso recursivo que suma las dos posiciones anteriores, determinará el número correspondiente en la serie matemática.
 
 ## Código Fuente
 A continuación se presenta el código en Java, comentado para explicar su funcionamiento lógico:

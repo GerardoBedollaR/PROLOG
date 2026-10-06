@@ -67,5 +67,7 @@ public class LaberintoRecursivo {
     }
 }
 
+```
+
 ## Conclusión
 Este ejercicio demuestra la potencia de la recursividad combinada con Backtracking para resolver problemas de exploración de rutas[cite: 9]. En lugar de evaluar exhaustivamente cada combinación de forma manual, la pila de llamadas del sistema administra automáticamente el historial de movimiento[cite: 1, 9]. Al definir adecuadamente los casos base (límites de la matriz, paredes y condición de victoria), el programa garantiza prevenir bucles infinitos y retroceder de manera eficiente al encontrar un callejón sin salida[cite: 9].
